@@ -15,7 +15,7 @@ public class Ativ_1 {
 			numeros.add(numA);
 		}
 
-		numeros.remove(4);
+		numeros.remove(3);
 		for (int numA : numeros) {
 			System.out.println(numA);
 		}
@@ -33,7 +33,7 @@ public class Ativ_1 {
  
  2    V      6
  
- 3    V      5
+ 3    V      
  
  4    V      5
  
@@ -47,7 +47,7 @@ public class Ativ_1 {
  
  9    V      5
  
- 10   F
+ 
  
  
 */

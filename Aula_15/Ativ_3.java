@@ -9,7 +9,7 @@ public class Ativ_3 {
 		Scanner scanner = new Scanner(System.in);
 		ArrayList<Integer> numero = new ArrayList<Integer>();
 		
-		for (int i=1; i<6; i++) {
+		for (int i=1; i<7; i++) {
 			System.out.print("Informe o " + i + " número: ");
 			int numUser = scanner.nextInt();
 			numero.add(numUser);
@@ -17,9 +17,9 @@ public class Ativ_3 {
 		
 		System.out.println("Números positivos");
 		
-		for (int numeros: numero) {
-			if (numeros > 0) {
-				System.out.println(numeros);
+		for (int recebeValor: numero) {
+			if (recebeValor > 0) {
+				System.out.println(recebeValor);
 			}
 		}
 
